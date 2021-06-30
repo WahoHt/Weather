@@ -1,0 +1,21 @@
+.pageWrapper {
+  display: flex;
+  justify-content: space-between;
+  // height: 100%;
+}
+
+// @media screen and(max-width:1024px) {
+//   .pageWrapper {
+//     height: 100%;
+//   }
+// }
+
+@media screen and(max-width:768px) {
+  .pageWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .imageBackground {
+    height: 0%;
+  }
+}

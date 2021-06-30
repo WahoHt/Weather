@@ -1,0 +1,26 @@
+.cityName {
+  height: 30px;
+  width: 100px;
+  color: #5d5e62;
+  font-family: Georgia, serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cityText,
+.cityTextTwo {
+  margin-top: 10px;
+}
+
+.cityText {
+  color: #72be7d;
+}
+
+.cityTextTwo {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=Style.css.map */

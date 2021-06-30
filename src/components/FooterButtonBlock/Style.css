@@ -1,0 +1,27 @@
+.footerButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 13%;
+}
+
+.buttonFavorite {
+  height: 40px;
+  width: 80%;
+  border-radius: 45px;
+  text-align: center;
+  border: solid #464749;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: white;
+  background: #464749;
+}
+
+.buttonDrop:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=Style.css.map */

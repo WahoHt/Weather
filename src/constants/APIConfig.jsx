@@ -1,0 +1,2 @@
+export const API_KEY_IMAGE = "VmY2sLyRLQ8Xees6zp3JgKAHTRvDZlYO1JgricPuR3w"
+export const API_KEY_WEATHER = "7c9449a468c62526f77e980f1ac65277"

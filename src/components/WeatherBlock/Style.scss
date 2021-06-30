@@ -1,0 +1,45 @@
+.weatherBlock {
+  display: flex;
+  padding-top: 1%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-right: 1%;
+  border-radius: 5%;
+  background-color: #3a3b3f;
+  height: 100vh;
+  min-width: 320px;
+}
+
+.headerWeatherBlock {
+  display: flex;
+  justify-content: space-around;
+}
+.defaultWeatherBlock {
+  align-items: center;
+  display: flex;
+  font-size: 130%;
+  color: #99d0a8;
+  justify-content: center;
+  height: 550px;
+}
+@media screen and(max-width:) {
+}
+@media screen and(max-width:1600px) {
+  .weatherBlock {
+    margin-right: 100px;
+  }
+}
+@media screen and(max-width:768px) {
+  .weatherBlock {
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-right: 20px;
+    border-radius: 5%;
+    background-color: #3a3b3f;
+    height: 100%;
+    margin-top: 70%;
+    margin-left: 30px;
+  }
+}

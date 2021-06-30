@@ -1,0 +1,32 @@
+.inputSearch {
+  margin-top: 7px;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 1em;
+  background-color: #50535a;
+  outline: none;
+  font-style: tahoma;
+  position: absolute;
+  color: white;
+}
+
+.inputSearch[type=text] {
+  padding-left: 35px;
+}
+
+.inputSearch::-webkit-input-placeholder {
+  color: white;
+}
+
+.inputSearch:-ms-input-placeholder {
+  color: white;
+}
+
+.inputSearch::-ms-input-placeholder {
+  color: white;
+}
+
+.inputSearch::placeholder {
+  color: white;
+}
+/*# sourceMappingURL=StyleInp.css.map */

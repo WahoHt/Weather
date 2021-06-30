@@ -1,0 +1,53 @@
+.footerWeatherBlock {
+  margin-top: 27%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+h2 {
+  color: white;
+}
+
+.humidity,
+.speed {
+  background-color: #47464b;
+  text-align: center;
+}
+
+.humidityIcon {
+  margin: -50px;
+  margin-right: 50px;
+}
+
+.humidity {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 180px;
+  height: 70px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 26% 26% 26% 0 / 49%;
+  font: normal 100% / normal Arial, Helvetica, sans-serif;
+  text-overflow: clip;
+}
+
+.speed {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 130px;
+  height: 70px;
+  border: none;
+  border-radius: 58% 0 71% 58% / 113%;
+  font: normal 100% / normal Arial, Helvetica, sans-serif;
+  color: black;
+  text-overflow: clip;
+}
+
+.speedIcon {
+  margin: -50px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=Style.css.map */

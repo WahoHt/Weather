@@ -1,0 +1,17 @@
+html,
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  #root {
+    height: 100%;
+  }
+}

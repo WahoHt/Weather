@@ -1,0 +1,20 @@
+.notFound{
+	display: flex;
+	justify-content: center;
+	color:white;
+	font-size: 80px;
+	padding-top: 250px;
+	height: 753px;
+}
+
+@media screen and(max-width:930px) {
+	.notFound{
+		font-size: 60px;
+	}
+}
+
+@media screen and(max-width:710px) {
+	.notFound{
+		font-size: 30px;
+	}
+}

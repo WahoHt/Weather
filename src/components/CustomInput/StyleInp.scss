@@ -1,0 +1,18 @@
+.inputSearch {
+    margin-top: 7px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    background-color: rgb(80,83,90);
+    outline: none;
+    font-style: tahoma;
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+.inputSearch[type=text]{
+    // padding-top: 6px;
+    padding-left: 35px;
+}
+.inputSearch::placeholder {
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,25 @@
+.queryBlock {
+  margin-left: 80px;
+}
+
+.cityFilter {
+  width: 230px;
+  list-style-type: none;
+  position: absolute;
+  background-color: #50535a;
+  color: white;
+  margin-top: -9px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .queryBlock {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    margin-right: 170px;
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=Style.css.map */

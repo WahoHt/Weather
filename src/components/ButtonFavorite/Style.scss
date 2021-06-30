@@ -1,0 +1,12 @@
+.buttonDrop {
+  border-radius: 45px;
+  text-align: center;
+  border: solid rgb(114, 190, 125);
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: white;
+  background: rgb(114, 190, 125);
+}
+.buttonDrop:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

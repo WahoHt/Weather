@@ -1,0 +1,24 @@
+.currentDay {
+  // height: 100px;
+  display: flex;
+}
+.currInfo {
+  margin-top: 15px;
+}
+.currentDayTemp,
+.weatherName {
+  color: white;
+}
+.weatherName {
+  margin-top: 30px;
+}
+
+.currentDayTemp {
+  position: absolute;
+  font-size: 130%;
+  margin-top: 100px;
+  margin-left: 33px;
+}
+.currentDayTemp:after {
+  content: "\2103";
+}
