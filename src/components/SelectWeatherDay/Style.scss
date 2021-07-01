@@ -12,6 +12,12 @@
 .weatherName {
   margin-top: 30px;
 }
+.weatherFullName {
+  color: rgb(124, 127, 136);
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+}
 
 .currentDayTemp {
   position: absolute;

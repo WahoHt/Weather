@@ -5,6 +5,7 @@ import "./Style.scss";
 
 export function SelectedDay(props) {
   const weather = useSelector(({ weather }) => weather);
+  console.log(weather);
   function сurrentDay() {
     if (weather.selectedDay) {
       return Object.entries(weather.objWeatherData).map(
@@ -23,6 +24,12 @@ export function SelectedDay(props) {
                     />
                     <p className="currentDayTemp">{weatherTemp}</p>
                     <h2 className="weatherName">{value.weather[0].main}</h2>
+                    <div className="weatherFullName">
+                      <h4 className="description">Description:</h4>
+                      <p className="descriptionName">
+                        {value.weather[0].description}
+                      </p>
+                    </div>
                   </div>
                 </Tooltip>
               </div>

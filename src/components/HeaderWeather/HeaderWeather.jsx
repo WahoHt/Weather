@@ -34,7 +34,11 @@ export function CustomHeader(props) {
       <div
         className="city"
         key={index}
-        style={{ alignItems: "center", display: "flex", paddingTop: "2px" }}
+        style={{
+          alignItems: "center",
+          display: "flex",
+          padding: "3px 8px 5px 10px",
+        }}
       >
         <CheckBox id={country} />
         <li key={index} onClick={() => handelOnClick(country)}>

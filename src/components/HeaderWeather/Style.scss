@@ -2,13 +2,14 @@
   margin-left: 80px;
 }
 .cityFilter {
-  width: 230px;
   list-style-type: none;
   position: absolute;
   background-color: rgb(80, 83, 90);
   color: white;
   margin-top: -9px;
+  padding: 0px;
   border-radius: 10px;
+  width: 235px;
 }
 
 @media screen and (max-width: 768px) {

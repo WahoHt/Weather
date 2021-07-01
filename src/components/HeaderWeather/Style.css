@@ -3,13 +3,14 @@
 }
 
 .cityFilter {
-  width: 230px;
   list-style-type: none;
   position: absolute;
   background-color: #50535a;
   color: white;
   margin-top: -9px;
+  padding: 0px;
   border-radius: 10px;
+  width: 235px;
 }
 
 @media screen and (max-width: 768px) {

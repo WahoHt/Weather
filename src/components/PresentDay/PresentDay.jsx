@@ -13,7 +13,7 @@ export function PresentDay(props) {
   const currentDay = moment(date).format("MMM Do");
   return (
     <div className="presentDay">
-      <h2 className="currDay">{currentDay}</h2>
+      <h4 className="currDay">{currentDay}</h4>
       <h2 className="statusWeather">{statusWeather}</h2>
     </div>
   );
