@@ -26,11 +26,7 @@ export function CheckBox(props) {
   }
   const image = status ? <img src={imagesYellow} /> : <img src={imagesBlack} />;
   return (
-    <div
-      className="checkBox"
-      style={{ marginRight: "10px" }}
-      onClick={handelOnClick}
-    >
+    <div className="checkBox" onClick={handelOnClick}>
       {image}
     </div>
   );

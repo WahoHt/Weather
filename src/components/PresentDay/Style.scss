@@ -11,6 +11,9 @@
   margin: 0;
   text-transform: uppercase;
 }
+.currDay {
+  font-size: 30px;
+}
 @media screen and(max-width:768px) {
   .presentDay {
     margin-top: 78%;

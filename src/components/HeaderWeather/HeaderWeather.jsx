@@ -41,7 +41,11 @@ export function CustomHeader(props) {
         }}
       >
         <CheckBox id={country} />
-        <li key={index} onClick={() => handelOnClick(country)}>
+        <li
+          key={index}
+          onClick={() => handelOnClick(country)}
+          style={{ cursor: "pointer", marginLeft: "5px" }}
+        >
           {country}
         </li>
       </div>

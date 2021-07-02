@@ -5,7 +5,6 @@ import "./Style.scss";
 
 export function SelectedDay(props) {
   const weather = useSelector(({ weather }) => weather);
-  console.log(weather);
   function сurrentDay() {
     if (weather.selectedDay) {
       return Object.entries(weather.objWeatherData).map(
