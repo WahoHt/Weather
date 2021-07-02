@@ -18,9 +18,7 @@ export function FooterWeatherBlock(props) {
               <div className="footerWeatherBlock" key={index}>
                 <Tooltip title={titleHumidity}>
                   <div className="humidity">
-                    <h2 style={{ marginLeft: "35px" }}>
-                      {value.main.humidity} air
-                    </h2>
+                    <h2>{value.main.humidity}</h2>
                     <div className="humidityIcon">
                       <FontAwesomeIcon
                         icon={faLeaf}
@@ -30,11 +28,21 @@ export function FooterWeatherBlock(props) {
                         }}
                       />
                     </div>
+                    <p
+                      style={{
+                        marginTop: "50px",
+                        color: "#7c7f88",
+                        fontSize: "15px",
+                        marginLeft: "20px",
+                      }}
+                    >
+                      Air Quality Index
+                    </p>
                   </div>
                 </Tooltip>
                 <Tooltip title={titleSpeed}>
                   <div className="speed">
-                    <h2 style={{ marginLeft: "30px" }}>{speed} kmh</h2>
+                    <h2>{speed}</h2>
                     <div className="speedIcon">
                       <FontAwesomeIcon
                         icon={faWind}
@@ -45,6 +53,15 @@ export function FooterWeatherBlock(props) {
                         }}
                       />
                     </div>
+                    <p
+                      style={{
+                        marginTop: "50px",
+                        color: "#7c7f88",
+                        fontSize: "15px",
+                      }}
+                    >
+                      kmph
+                    </p>
                   </div>
                 </Tooltip>
               </div>
